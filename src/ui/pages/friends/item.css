@@ -1,0 +1,9 @@
+.friend {
+    float: left;
+    margin: 15px;
+}
+
+.friend img {
+    width: 100px;
+    height: 100px;
+}

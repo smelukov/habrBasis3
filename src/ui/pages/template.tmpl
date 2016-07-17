@@ -1,0 +1,6 @@
+<div>
+  <div class="alert alert-info" b:show="{loading}">загружается...</div>
+  <div class="alert alert-warning" b:show="{empty}">список пуст</div>
+  <div class="alert alert-danger" b:show="{error}">{error}</div>
+  <div{page} b:hide="{loading}"/>
+</div>

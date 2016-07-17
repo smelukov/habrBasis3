@@ -1,0 +1,18 @@
+<div class="container">
+  <div b:show="{active}">
+    <!--{header}-->
+    <!--{menu}-->
+    <hr/>
+    <!--{page}-->
+  </div>
+  <div class="jumbotron text-center" b:hide="{active}">
+    <h1>
+      VK Client
+      <small> powered by basis.js</small>
+    </h1>
+    <div class="alert alert-danger" b:show="{error}">
+      {error}
+    </div>
+    <button class="btn btn-primary btn-lg" event-click="login" disabled="{disabled}">Авторизация</button>
+  </div>
+</div>
